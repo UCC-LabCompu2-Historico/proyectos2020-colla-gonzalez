@@ -4,13 +4,13 @@ El proyecto servira para:
 * Hacer calculos
 * Aprender teoria
 
-#Herramientas utilizadas:
+# Herramientas utilizadas:
 * GitHub
 * Webstorm
 * HTML 5
 * CSS 3
 
-#Autores:
+# Autores:
 * Gonzalez,Tomas
 * Colla,Julian
 
