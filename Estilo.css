@@ -33,16 +33,34 @@ h1{
     padding: 2.5rem 5rem;
 }
 h2{
-
     font-size: 2rem;
     color: white;
-
     letter-spacing: 2px;
     position: absolute;
     border: 3px solid #ffffff;
-    top: 23%;
-    left: 5%;
-    padding: 2.5rem 5rem;
+    top: 35%;
+    left: 16%;
+    padding: 2.5rem 10rem;
+}
+h3{
+    font-size: 2rem;
+    color: white;
+    letter-spacing: 2px;
+    position: absolute;
+    border: 3px solid #ffffff;
+    top: 34.7%;
+    left: 38.4%;
+    padding: 2.5rem 10rem;
+}
+h4{
+    font-size: 2rem;
+    color: white;
+    letter-spacing: 2px;
+    position: absolute;
+    border: 3px solid #ffffff;
+    top: 34%;
+    left: 62%;
+    padding: 2.5rem 10rem;
 }
 .teoria{
     font-size: 1.5rem;
