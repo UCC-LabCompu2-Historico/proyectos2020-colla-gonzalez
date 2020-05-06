@@ -11,7 +11,7 @@ html{
     font-size: 10px;
     font-family: "Raleway",Arial,sans-serif;
 }
-section{
+div{
     width: 100%;
     height: 100vh;
     color: #fff;
@@ -20,7 +20,22 @@ section{
     position: relative;
     animation: change 10s ease-in-out infinite;
 }
-h1{
+.T_amp{
+    position: absolute;
+    top: 35%;
+    left: 45%;
+}
+.T_ohm{
+    position: absolute;
+    top: 35%;
+    left: 68%;
+}
+.T_volt{
+    position: absolute;
+    top: 35%;
+    left: 23%;
+}
+#Titulo{
     font-size: 5rem;
     color: white;
     text-transform: uppercase;
@@ -38,7 +53,7 @@ h2{
     letter-spacing: 2px;
     position: absolute;
     border: 3px solid #ffffff;
-    top: 35%;
+    top: 50%;
     left: 16%;
     padding: 2.5rem 10rem;
 }
@@ -48,8 +63,8 @@ h3{
     letter-spacing: 2px;
     position: absolute;
     border: 3px solid #ffffff;
-    top: 34.7%;
-    left: 38.4%;
+    top: 49.7%;
+    left: 39.5%;
     padding: 2.5rem 10rem;
 }
 h4{
@@ -58,7 +73,7 @@ h4{
     letter-spacing: 2px;
     position: absolute;
     border: 3px solid #ffffff;
-    top: 34%;
+    top: 49%;
     left: 62%;
     padding: 2.5rem 10rem;
 }

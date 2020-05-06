@@ -5,47 +5,59 @@
     <title>Proyecto</title>
     <link rel="stylesheet" href="Estilo.css" type="text/css">
     <link rel="shortcut icon" href="Imagenes/icono_ohm.png">
+
 </head>
 <body>
-<section>
-    <h1>
-        Ley de ohm
-    </h1>
+
+<div>
+    <img class="T_amp" src="Imagenes/T_ampere.png">
+    <img class="T_volt" src="Imagenes/T_volt.png">
+    <img class="T_ohm" src="Imagenes/T_ohm.png">
     <p class="teoria">
         La ley de Ohm, postulada por el físico y matemático alemán Georg Simon Ohm, es una ley básica de los circuitos eléctricos. Establece que la diferencia de potencial V que aplicamos entre los extremos de un conductor determinado es proporcional a la intensidad de la corriente I que circula por el citado conductor. Ohm completó la ley introduciendo la noción de resistencia eléctrica  R; que es el factor de proporcionalidad que aparece en la relación entre V e I.
     </p>
+    <h1 id="Titulo">
+        Ley de ohm
+    </h1>
+    <section>
+        <h2>
+            <form id="cvol">
+                Calculo de voltaje
+                <p>
+                    Ampers: <input type="number" name="amp">
+                </p>
+                <p>
+                    Ohms: <input type="number" name="ohm">
+                </p>
 
-    <h2>
-        Calculo de voltaje
-        <p>
-            Ampers:
-        </p>
-        <p>
-            Ohms:
-        </p>
-    </h2>
+            </form>
+        </h2>
 
-    <h3>
-        Calculo de corriente
-        <p>
-            Volts:
-        </p>
-        <p>
-            Ohms:
-        </p>
-    </h3>
+        <h3>
+            <form id="ccor">
+                Calculo de corriente
+                <p>
+                    Volts: <input type="number" name="volt">
+                </p>
+                <p>
+                    Ohms: <input type="number" name="ohm">
+                </p>
+            </form>
+        </h3>
 
-<h4>
-        Calculo de resistencia
-        <p>
-            Volts:
-        </p>
-        <p>
-            Ampers:
-        </p>
-    </h4>
+        <h4>
+            <form id="cres">
+                Calculo de resistencia
+                <p>
+                    Volts: <input type="number" name="volt">
+                </p>
+                <p>
+                    Ampers: <input type="number" name="amp">
+                </p>
+            </form>
+        </h4>
+    </section>
 
-
-</section>
+</div>
 </body>
 </html>
