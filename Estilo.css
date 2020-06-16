@@ -99,3 +99,15 @@ h4{
         background-position: 0 50%;
     }
 }
+
+.CanvasV{
+
+    border: 1px solid #000000;
+    background: rgba(240,255,104,0.47);
+    position: absolute;
+    top: 80%;
+    left: 42.75%;
+    width:300px;
+    height:150px;
+
+}

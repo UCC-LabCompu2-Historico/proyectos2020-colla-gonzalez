@@ -36,6 +36,9 @@
                 <p>
                     Voltaje = <span type="text" name="Voltaje_Total"></span>
                 </p>
+                <p>
+                    <button type="button" onclick="GraficarVoltaje(ampv.value,ohmv.value)">Graficar</button>
+                </p>
 
             </form>
         </h2>
@@ -52,6 +55,9 @@
                 <p>
                     Corriente = <span type="text" name="Corriente_Total"></span>
                 </p>
+                <p>
+                    <button type="button" onclick="GraficarCorriente(voltc.value,ohmc.value)">Graficar</button>
+                </p>
             </form>
         </h3>
 
@@ -67,10 +73,14 @@
                 <p>
                     Resitencia = <span type="text" name="Resistencia_Total"></span>
                 </p>
+                <p>
+                    <button type="button" onclick="GraficarResistencia(voltr.value,ampr.value)">Graficar</button>
+                </p>
             </form>
         </h4>
     </section>
 
 </div>
+<canvas id="Canvas" class="CanvasV"></canvas>
 </body>
 </html>
