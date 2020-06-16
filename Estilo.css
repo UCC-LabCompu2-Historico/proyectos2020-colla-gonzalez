@@ -53,9 +53,9 @@ h2{
     letter-spacing: 2px;
     position: absolute;
     border: 3px solid #ffffff;
-    top: 50%;
+    top: 57%;
     left: 16%;
-    padding: 2.5rem 10rem;
+    padding: 2.5rem 5rem;
 }
 h3{
     font-size: 2rem;
@@ -63,9 +63,9 @@ h3{
     letter-spacing: 2px;
     position: absolute;
     border: 3px solid #ffffff;
-    top: 49.7%;
-    left: 39.5%;
-    padding: 2.5rem 10rem;
+    top: 57%;
+    left: 41.5%;
+    padding: 2.5rem 5rem;
 }
 h4{
     font-size: 2rem;
@@ -73,9 +73,9 @@ h4{
     letter-spacing: 2px;
     position: absolute;
     border: 3px solid #ffffff;
-    top: 49%;
-    left: 62%;
-    padding: 2.5rem 10rem;
+    top: 57%;
+    left: 65%;
+    padding: 2.5rem 5rem;
 }
 .teoria{
     font-size: 1.5rem;

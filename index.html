@@ -27,10 +27,13 @@
             <form id="cvol">
                 Calculo de voltaje
                 <p>
-                    Ampere: <input type="number" name="amp">
+                    Ampere: <input type="text" name="ampv" onchange="CalcularVoltaje()">
                 </p>
                 <p>
-                    Ohm: <input type="number" name="ohm">
+                    Ohm: <input type="text" name="ohmv" onchange="CalcularVoltaje()">
+                </p>
+                <p>
+                    Voltaje = <span type="text" name="Voltaje_Total"></span>
                 </p>
 
             </form>
@@ -40,10 +43,13 @@
             <form id="ccor">
                 Calculo de corriente
                 <p>
-                    Volt: <input type="number" name="volt">
+                    Volt: <input type="text" name="voltc" onchange="CalcularCorriente()">
                 </p>
                 <p>
-                    Ohm: <input type="number" name="ohm">
+                    Ohm: <input type="text" name="ohmc" onchange="CalcularCorriente()">
+                </p>
+                <p>
+                    Corriente= <span type="text" name="Corriente_Total"></span>
                 </p>
             </form>
         </h3>
@@ -52,10 +58,13 @@
             <form id="cres">
                 Calculo de resistencia
                 <p>
-                    Volt: <input type="number" name="volt">
+                    Volt: <input type="text" name="voltr" onchange="CalcularResistencia()">
                 </p>
                 <p>
-                    Ampere: <input type="number" name="amp">
+                    Ampere: <input type="text" name="ampr"onchange="CalcularResistencia()">
+                </p>
+                <p>
+                    Resitencia= <span type="text" name="Resistencia_Total"></span>
                 </p>
             </form>
         </h4>
