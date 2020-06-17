@@ -15,7 +15,7 @@ El proyecto servira para:
 * Colla,Julian
 
 ## Link del sitio
-[Ley de Ohm](http://localhost:63342/proyectos2020-colla-gonzalez/index.html?_ijt=ul0to5kqkgerdr011ob3jdva09)
+[Ley de Ohm](https://ucc-labcompu2.github.io/proyectos2020-colla-gonzalez/)
 
 
 
