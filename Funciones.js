@@ -113,3 +113,29 @@ function GraficarResistencia(posX,posY) {
     }
 
 }
+
+
+x=0;
+dx=1;
+
+function Animar() {
+    var canvas = document.getElementById("Canvas");
+    var ctx = canvas.getContext("2d");
+
+
+    var imagen = new Image();
+    imagen.src = "Imagenes/electron.png";
+
+
+    imagen.onload = function () {
+
+        ctx.drawImage(imagen, x, 140);
+
+    }
+    if (x>canvas.width){
+        x=0;
+        canvas.width=canvas.width;
+    }
+    x+=dx;
+}
+
